@@ -38,6 +38,13 @@ final class ApiRequestService
         return $this;
     }
 
+    public function withHeaders(array $headers): self {
+
+        $this->headers = $headers;
+
+        return $this;
+    }
+
     public function withData(array $data): self
     {
         $this->data = $data;
