@@ -1,0 +1,14 @@
+{
+    "agents": [
+        "gemini",
+        "phpstorm"
+    ],
+    "editors": [
+        "gemini",
+        "phpstorm"
+    ],
+    "guidelines": [
+        "filament/filament"
+    ],
+    "herd_mcp": true
+}
