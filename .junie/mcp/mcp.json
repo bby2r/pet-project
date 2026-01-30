@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+        "laravel-boost": {
+            "command": "/Users/baiturbulanbekov/Library/Application Support/Herd/bin/php83",
+            "args": [
+                "/Users/baiturbulanbekov/PhpStormProjects/pet-project/artisan",
+                "boost:mcp"
+            ]
+        },
+        "herd": {
+            "command": "/Users/baiturbulanbekov/Library/Application Support/Herd/bin/php83",
+            "args": [
+                "/Applications/Herd.app/Contents/Resources/herd-mcp.phar"
+            ],
+            "env": {
+                "SITE_PATH": "/Users/baiturbulanbekov/PhpStormProjects/pet-project"
+            }
+        }
+    }
+}
